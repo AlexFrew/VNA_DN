@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="Keysight.Ccl.Wsl.Samples.SplashScreenSample.GenericProductSplashScreen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="500"
+             d:DesignWidth="500"
+             Unloaded="UserControl_Unloaded">
+    <DockPanel>
+        <DockPanel.Resources>
+            <BitmapImage x:Key="BackgroundImage"
+                         UriSource="/Images/GenericSplashScreenBackground.png" />
+        </DockPanel.Resources>
+        <Grid>
+            <Border>
+                <Viewbox Stretch="Fill">
+                    <Canvas Width="500"
+                            Height="500">
+                        <Rectangle Width="500"
+                                   Height="500">
+                            <Rectangle.Fill>
+                                <ImageBrush ImageSource="{StaticResource BackgroundImage}" />
+                            </Rectangle.Fill>
+                        </Rectangle>
+                    </Canvas>
+                </Viewbox>
+            </Border>
+        </Grid>
+    </DockPanel>
+</UserControl>

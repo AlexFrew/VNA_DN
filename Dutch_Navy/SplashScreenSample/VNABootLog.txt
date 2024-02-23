@@ -1,0 +1,15 @@
+﻿ Starting...
+      Searching for components...
+         5030A/ VNA
+         5030A/ Interface
+     Composing...
+     
+     Initializing limit tests
+     Initializing hardware
+         Discovering hardware...
+             Identify hardware at TCPIP127::localhost::inst0::INSTR
+             
+     Loading main window
+    
+ Startup Complete
+
