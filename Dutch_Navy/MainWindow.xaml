@@ -42,10 +42,16 @@
                 <Label Width=" 150" Content="LO1 Frequency(MHz):"/>
                 <TextBox x:Name="LO1"  HorizontalAlignment="Left" Height="32" Margin="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="235" Text="9350" />
             </StackPanel>
-            <Button x:Name="button" Margin="79,20" Content="Run"  HorizontalAlignment="Center"  VerticalAlignment="Top" Width=" 250" Height="45" Click="button_Click"/>
+
+
+            <Button x:Name="button" Margin="79,150" Content="Run"  HorizontalAlignment="Center"  VerticalAlignment="Top" Width=" 250" Height="45" Click="button_Click"/>
+
+
 
         </StackPanel>
         <TextBox Grid.Row="0" Margin="5,49,10.2,49.4" Grid.RowSpan="3" Height=" 500" x:Name="LogPanel" VerticalScrollBarVisibility="Visible" Grid.Column="1" />
+        <CheckBox x:Name="Band_Select" Content="Check to Select XBand     Uncheck to Select KaBand" HorizontalAlignment="Left" Margin="20,95.4,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+
     </Grid>
 </ui:WslMainWindow>
 

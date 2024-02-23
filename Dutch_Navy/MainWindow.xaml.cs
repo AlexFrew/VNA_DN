@@ -138,7 +138,7 @@ namespace Keysight.Ccl.Wsl.Samples.SplashScreenSample
             L01_Freqd = L01_Freqd * 1000000;
 
 
-            if (L01_Freqd == 9350000000)        
+            if (Band_Select.IsChecked == true)        
 
             {
                 AddTexToLogPanel("XBand Selected");
