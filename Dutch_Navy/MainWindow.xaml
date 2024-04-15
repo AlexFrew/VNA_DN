@@ -50,7 +50,8 @@
 
         </StackPanel>
         <TextBox Grid.Row="0" Margin="5,49,10.2,49.4" Grid.RowSpan="3" Height=" 500" x:Name="LogPanel" VerticalScrollBarVisibility="Visible" Grid.Column="1" />
-        <CheckBox x:Name="Band_Select" Content="Check to Select XBand     Uncheck to Select KaBand" HorizontalAlignment="Left" Margin="20,95.4,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <RadioButton x:Name="XBand" Content="XBand" HorizontalAlignment="Left" Margin="40,93.4,0,0" VerticalAlignment="Top" Grid.Row="1" IsChecked="True"/>
+        <RadioButton x:Name="KaBand" Content="KaBand" HorizontalAlignment="Left" Margin="40,132.4,0,0" VerticalAlignment="Top" Grid.Row="1"/>
 
     </Grid>
 </ui:WslMainWindow>
