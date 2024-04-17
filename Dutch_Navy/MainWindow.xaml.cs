@@ -16,6 +16,7 @@ namespace Keysight.Ccl.Wsl.Samples.SplashScreenSample
     /// </summary>
     public partial class MainWindow : WslMainWindow
     {
+        // New
 
         public MainWindow()
         {
